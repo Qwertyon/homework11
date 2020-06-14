@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  height: 60px;
+  align-items: center;
+
+  &__subscribe {
+    font-size: 14px;
+    color: $second-text-color;
+    font-family: $main-font;
+    font-weight: 400;
+  }
+
+  &__author-link {
+    color: $primal-color;
+  }
+}
+
+.contact-form {
+  width: 380px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  &__btn {
+    flex-basis: 150px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    font-size: 14px;
+    color: $first-text-color;
+    font-family: $main-font;
+    font-weight: 700;
+    background-color: $secondary-primal-color;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__input {
+    flex-grow: 1;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #e7e7e7;
+    padding-left: 15px;
+    color: #333333;
+
+    &::-webkit-input-placeholder {
+      color: #cccccc;
+    }
+
+    &::-moz-placeholder {
+      color: #cccccc;
+    }
+  }
+}
